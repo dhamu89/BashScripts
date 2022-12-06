@@ -7,3 +7,4 @@ then
 echo "service $process is running"
 else
 systemctl start $process && echo " $process Service started and it is running now"
+fi
